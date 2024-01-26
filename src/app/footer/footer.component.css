@@ -1,0 +1,169 @@
+footer {
+    min-height: 550px;
+    padding: 50px 75px 10px;
+    background: #659AB1 ;
+}
+
+footer .top {
+    min-height: 160px;
+    /* border-bottom: 3px dashed #FFFFFF; */
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+footer .top-left {
+    width: 33%;
+}
+
+footer .top-left h1 {
+    font: normal normal bold 36px/43px Barlow Condensed;
+    letter-spacing: 0.72px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+}
+
+footer .top-left h2 {
+    font: normal normal normal 18px/28px Nunito;
+    letter-spacing: 0px;
+    color: #EFF5F7;
+}
+
+footer .top-right {
+    width: 55%;
+    position: relative;
+}
+
+footer .top-right input {
+    background: #84AEC1 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    width: 100%;
+    margin-top: 37px;
+    height: 62px;
+    padding: 21px 30px 18px;
+    border: 0px transparent !important;
+    color: white;
+}
+
+footer .top-right input:focus {
+    border-color: unset;
+    border: unset
+}
+
+footer .top-right input::placeholder {
+    font: normal normal normal 17px/27px Nunito;
+    letter-spacing: 0px;
+    color: #EFF5F7;
+}
+
+footer .top-right span {
+    font: normal normal bold 12px/62px Josefin Sans;
+    letter-spacing: 1.8px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 40px;
+}
+
+footer .bottom {
+    min-height: 160px;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, white 10%, rgba(255, 255, 255, 0) 0%);
+    background-position: top;
+    background-size: 22px 2px;
+    background-repeat: repeat-x;
+    padding-top: 60px;
+}
+
+footer .bottom .espro {
+}
+
+footer .bottom .espro img {
+    margin-bottom: 40px;
+}
+
+footer .bottom .espro h3 {
+    font: normal normal normal 15px/25px Nunito;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+footer .links-container {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+footer .links-container .links {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .links-container .links h1 {
+    font: normal normal bold 14px/25px Josefin Sans;
+    letter-spacing: 0.7px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+footer .links-container .links .link{
+    font: normal normal normal 14px/30px Nunito;
+    letter-spacing: 0px;
+    color: #EFF5F7;
+    margin-bottom: 14px;
+}
+
+footer .bottom .socials {
+}
+
+footer .bottom .socials h1 {
+    font: normal normal bold 14px/25px Josefin Sans;
+    letter-spacing: 0.7px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+footer .bottom .socials .buttons-container {
+    display: flex;
+}
+
+footer .bottom .socials button {
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px transparent;
+    background-color: #84AEC1;
+    margin-right: 10px;
+}
+
+footer .legal {
+    text-align: left;
+    font: normal normal normal 13px/30px Nunito;
+    letter-spacing: 0px;
+    color: #EFF5F7; 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+footer .legal h2 {
+    text-align: left;
+    font: normal normal normal 13px/30px Nunito;
+    letter-spacing: 0px;
+    color: #EFF5F7;
+    margin-right: 30px;
+}
+
+footer .legal .right {
+    display: flex;
+}
