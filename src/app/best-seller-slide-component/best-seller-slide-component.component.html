@@ -1,0 +1,18 @@
+<div class="best-seller-card">
+  <div class="product-image"><img [src]="data.image" alt=""></div>
+  <div class="bottom">
+    <div class="rating">
+      <span class="full-stars">{{ getFullStars() }}</span>
+      <span class="empty-stars">{{ getEmptyStars() }}</span>
+    </div>
+    <h3>{{ data.name }}</h3>
+    <div class="price">
+      <span [ngClass]="{'previous-price': data.previousPriceBool}">
+        {{ formatPrice() }}
+      </span>
+      <span *ngIf="data.previousPriceBool" class="old-price">
+        ${{ data.previousPrice }}
+      </span>
+    </div>
+  </div>
+</div>
