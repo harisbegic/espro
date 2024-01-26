@@ -1,0 +1,65 @@
+  /* Add the below lines to your global styles or import them in your HTML */
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+  
+header {
+    font-family: Arial, sans-serif;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 75px;
+    position: relative;
+    background: white;
+    z-index: 999999999999999;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+
+  @media screen and (min-width: 1024px) {
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      transition: all 0.5s ease-in-out;
+    }
+  }
+  
+  .nav-left, .nav-right, .nav-center {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    width: 121px;
+    height: 28px;
+    background: url('/assets/ESPRO_Homepage/ESPRO_Logo.svg') 0% 0% no-repeat padding-box;
+  }
+
+  .arrow-down {
+    width: 9px;
+    height: 5px;
+    background: url('/src/assets/ESPRO_Homepage/arrow-ios-downward-fill.png') 0% 0% no-repeat padding-box;
+  }
+  
+  .nav-link {
+    margin: 0 15px;
+    text-transform: uppercase;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .nav-icon {
+    font-size: 20px;
+    color: #333;
+    margin-left: 15px;
+    text-decoration: none;
+  }
+  
